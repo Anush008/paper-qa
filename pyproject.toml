@@ -406,6 +406,7 @@ trailing_comma_inline_array = true
 
 [tool.uv]
 dev-dependencies = [
+    "codeflash>=0.7",  # Pin to keep recent
     "ipython>=8",  # Pin to keep recent
     "mypy>=1.8",  # Pin for mutable-override
     "paper-qa[datasets,ldp,typing,zotero,local]",
